@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SingleRecipe</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+   <!-- nav -->
+   <nav class="navbar">
+     <div class="nav-center">
+       <!-- header -->
+       <div class="nav-header">
+         <a href="index.html" class="nav-logo">
+           <img src="./assets/logo3.svg" alt="simply recipes" />
+         </a>
+         <button type="button" class="btn nav-btn">
+           <i class="fas fa-align-justify"></i>
+         </button>
+       </div>
+       <!-- links -->
+       <div class="nav-links">
+         <a href="index.html" class="nav-link">home</a>
+         <a href="about.html" class="nav-link">about</a>
+         <a href="recipes.html" class="nav-link">recipes</a>
+       </div>
+     </div>
+    </nav>
+    <!-- end of nav -->
+    <!-- main -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img src="./assets/recipes/Banana-Bread.jpg" 
+          class="img recipe-hero-img"
+          alt="Scramble"/>
+          <article>
+            <h2>Banana Bread</h2>
+            <p>
+              A delicious recipe for you.
+            </p>
+            <!-- recipe icons -->
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>4 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags -->
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>Tips</p>
+                <div></div>
+              </header>
+              <p>
+                You can add your favorite vegetables like onions, bell peppers and mushrooms to the scramble at your liking.  Be sure to sautee them first.
+                You can add cream cheese or almond milk to make the scramble extra fluffy!
+              </p>
+            </div>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                Press the block of tofu between paper towels to squeeze out water.
+              </p>
+            </div>
+            <div class="single-instruction">
+                <header>
+                  <p>step 2</p>
+                  <div></div>
+                </header>
+                <p>
+                  Place 2 quart pot over low to medium heat.  Add a teaspoon of your preferred cooking oil to the pan. (We like coconut or olive oil)
+                </p>
+              </div>
+              <div class="single-instruction">
+                <header>
+                  <p>step 3</p>
+                  <div></div>
+                </header>
+                <p>
+                  Crumble tofu into the pan.  Mix in all of the seasonings.
+                </p>
+              </div>
+              <div class="single-instruction">
+                <header>
+                  <p>step 4</p>
+                  <div></div>
+                </header>
+                <p>
+                  Reduce temperature and cook for 5-8 minutes, stirring occassionally. (it's very easy to overcook)
+                </p>
+              </div>
+              <div class="single-instruction">
+                <header>
+                  <p>step 5</p>
+                  <div></div>
+                </header>
+                <p>
+                  Remove from heat and serve.  I like to have mine with lighly buttered toast.
+                </p>
+              </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">
+                2 cups all-purpose flour
+              </p>
+              <p class="single-ingredient">
+                1 Tspn baking powder
+              </p>
+              <p class="single-ingredient">
+                1 Tspn baking soda
+              </p>
+              <p class="single-ingredient">
+                1/2 Tspn salt
+              </p>
+              <p class="single-ingredient">
+                1 cup Almond milk (room temperature)
+              </p>
+              <p class="single-ingredient">
+                3-4 large bananas
+              </p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Masher</p>
+              <p class="single-tool">Bread Pan</p>
+              <p class="single-tool">Measuring cups and spoons</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- end of main -->
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>&copy; <span id="date">2022</span>
+      <span class=""footer-logo"> Buen Provecho </span>
+      Built by B
+    </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

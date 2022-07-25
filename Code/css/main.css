@@ -276,6 +276,7 @@ Navbar
   align-items: center;
 }
 .nav-logo{
+  padding-top: .5rem;
   display: flex;
   align-items: center;
 }
